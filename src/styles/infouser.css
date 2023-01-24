@@ -1,0 +1,11 @@
+.infoUserContainer{
+    display: flex;
+    gap: 18px;
+}
+
+.avatar{
+    background: var(--first-color);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}

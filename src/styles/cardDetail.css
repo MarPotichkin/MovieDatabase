@@ -1,0 +1,63 @@
+.contCard {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDetailContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "img info";
+    background: rgba(255, 255, 255, 0.88);
+    filter: drop-shadow(8px 12px 8px rgba(0, 0, 0, 0.2));
+    height: 70vh;
+    width: 60vw;
+}
+
+.imgMovie {
+    grid-area: img;
+    background: var(--first-color);
+}
+
+.infoMovie {
+    grid-area: info;
+    padding: 4%;
+    position: relative;
+}
+
+.infoMovie > h5 {
+    font-family: Sarabun;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    margin: 2%;
+}
+
+.infoMovie > p {
+    font-family: Questrial;
+    font-size: 12px;
+}
+
+.rankingFavoriteMovie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 2px;
+    right: 4%;
+    left: 4%;
+}
+
+.scoreMovie {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+.scoreMovie > p {
+    font-family: Questrial;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
