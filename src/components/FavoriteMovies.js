@@ -1,12 +1,17 @@
 import React from 'react'
 import CardFavorite from './CardFavorite'
 import Ranking from './Ranking'
+import '../styles/favoritemovies.css'
 
 const FavoriteMovies = () => {
   return (
-    <div>
+    <div className='cont'>
       <Ranking/>
-      <CardFavorite/>
+      <div className='contFav'>
+        <CardFavorite/>
+        <CardFavorite/>
+        <CardFavorite/>
+      </div>
     </div>
   )
 }

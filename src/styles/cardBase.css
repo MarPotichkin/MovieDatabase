@@ -1,0 +1,70 @@
+.cardBase {
+    /* width: 266px;
+    height: 440px; */
+    background: var(--first-color);
+    height: 50vh;
+    position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.openInfoCard {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 15px solid rgba(255, 255, 255, 0.88);
+    position: absolute;
+    bottom: 15%;
+    right: 40%;
+}
+
+.cardInfo {
+    background: rgba(255, 255, 255, 0.88);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+
+}
+
+.cardInfo>h5 {
+    text-transform: uppercase;
+    font-family: Sarabun;
+    text-align: center;
+    margin: 5%;
+    color: black;
+}
+
+.cardInfo>p {
+    visibility: hidden;
+    color: black;
+    padding: 5%;
+    font-size: 12px;
+}
+
+.cardInfo>svg {
+    visibility: hidden;
+    color: var(--first-color);
+    padding: 5%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cardBase:hover {
+    filter: drop-shadow(8px 12px 8px rgba(0, 0, 0, 0.2));
+}
+
+.cardBase:hover>.cardInfo {
+    height: 100%;
+}
+
+.cardInfo:hover>p,
+.cardInfo:hover>svg {
+    font-family: Questrial;
+    visibility: visible;
+}
+
+.cardBase:hover > .openInfoCard, .cardInfo:hover > .openInfoCard{
+    display: none;
+}

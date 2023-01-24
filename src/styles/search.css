@@ -1,0 +1,25 @@
+.inputsearch{
+    background: #F8F8F8;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 13px;
+    height: 26px;
+    outline: none;
+    padding-left: 30px;
+}
+
+.inputsearch::placeholder{
+    font-style: italic;
+}
+
+.circleSearch{
+    height: 26px;
+    width: 26px;
+    background: var(--first-color);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

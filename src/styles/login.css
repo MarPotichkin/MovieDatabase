@@ -1,0 +1,130 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: white;
+    /* position: absolute; */
+}
+
+.boxLogin {
+    grid-column-start: 2;
+    height: 75%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    z-index: 1;
+    padding-bottom: 3%;
+}
+
+.boxLogin>h1 {
+    margin: 10% 0 0 0;
+    width: 70%;
+}
+
+.boxLogin>h6 {
+    text-align: start;
+}
+
+.boxLogin>input {
+    border: none;
+    background: rgba(217, 217, 217, 0.07);
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 9px;
+    width: 70%;
+    height: 10%;
+    padding: 0 0 0 3%;
+    outline: none;
+}
+
+.boxLogin>input::placeholder {
+    padding-left: 4%;
+    font-family: Questrial;
+    font-size: 12px;
+}
+
+.singin {
+    background: var(--first-color);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Sarabun;
+    width: 30%;
+    padding: 2% 0;
+    margin: 5% 0;
+}
+
+.boxLogin > p {
+    font-style: italic;
+    color: gray;
+    margin: 0;
+}
+
+.pop1 {
+    /* grid-column: 1;
+    grid-row: 1 / 2; */
+    position: absolute;
+    top: 0;
+    left: 2%;
+}
+
+.pop2 {
+    /* grid-column: 1;
+    grid-row: 1 / 2; */
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+
+.imgBebidas {
+    /* grid-column: 1;
+    grid-row: 1 / 2; */
+    position: absolute;
+    bottom: 0;
+    height: 80%;
+}
+
+.pop3 {
+    /* grid-column: 2;
+    grid-row: 1 / 2; */
+    position: absolute;
+    top: 0;
+    left: 55%;
+    scale: 1.2;
+    /* right: 0; */
+}
+
+.pop4 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.pop5 {
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+}
+
+.pop6 {
+    position: absolute;
+    right: 13%;
+}
+
+.lentes {
+    /* grid-column: 2;
+    grid-row: 1 / 2; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}

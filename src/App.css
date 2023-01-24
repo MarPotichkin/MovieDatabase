@@ -32,7 +32,53 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+:root {
+  --background: #efefef;
+  /* --first-color: #0082B3; */
+  --first-color: #2c9eaa;
+  --second-color: #A10300;
+}
+
+h1 {
+  font-family: Sarabun;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  /* line-height: 48px; */
+  text-align: center;
+}
+
+h3{
+  font-family: Sarabun;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0;
+}
+
+h6 {
+  font-family: Questrial;
+  margin: 5% 0 2% 0;
+  font-size: 12px;
+}
+
+p{
+  font-family: Questrial;
+  /* margin: 5% 0 2% 0; */
+  font-size: 10px;
+}
+
+.cont{
+  margin: 1% 4% 0 4%;
+  /* width: 100%; */
+  height: 100%;
+  box-sizing: border-box;
 }

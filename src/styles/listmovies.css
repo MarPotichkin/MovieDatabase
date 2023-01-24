@@ -1,0 +1,6 @@
+.gridMovies{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 56px 48px;
+}
